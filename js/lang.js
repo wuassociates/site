@@ -39,4 +39,6 @@ window.addEventListener("DOMContentLoaded", async () => {
   const userPreferredLanguage = localStorage.getItem("language") || "en";
   const langData = await fetchLanguageData(userPreferredLanguage);
   updateContent(langData);
+  const translator = document.getElementById('lang-select');
+  translator.value = userPreferredLanguage;
 });
