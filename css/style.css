@@ -820,7 +820,7 @@ figure:hover+span {
 .about_text_main {
     width: 100%;
     float: left;
-    padding: 100px 0px;
+    padding: 30px 0px;
 }
 
 .about_title {
@@ -842,13 +842,14 @@ figure:hover+span {
 .about_img {
     width: auto;
     margin-top: 30px;
+    float: right;
 }
 
 .attorneys_section {
     width: 100%;
     float: left;
     height: auto;
-    padding: 90px 0px 40px 0px;
+    padding: 30px 0px 40px 0px;
 }
 
 .attorneys_text {
