@@ -591,6 +591,10 @@ p.chunks_text {
     font-weight: bold;
     font-size: 24px;
 }
+.service_sub_heading {
+    font-weight: bold;
+    font-size: 18px;
+}
 
 p.service_text {
     width: 100%;
