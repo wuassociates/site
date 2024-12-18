@@ -305,7 +305,7 @@ a.navbar-brand {
 
 .login_bt li a {
     float: left;
-    font-size: 18px;
+    font-size: 16px;
     color: #001431;
     text-transform: uppercase;
     padding: 0px 0px 0px 40px;
@@ -1404,8 +1404,6 @@ textarea#comment::placeholder {
         margin:auto;
     }
     .login_bt ul {
-        margin: 0px;
-        padding: 0px;
         display:block;
     }
     
@@ -1414,9 +1412,6 @@ textarea#comment::placeholder {
     }
     
     .login_bt li a {
-        float: left;
-        font-size: 18px;
         color: #FFF;
-        text-transform: uppercase;
     }
 }
