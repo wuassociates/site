@@ -283,9 +283,11 @@ a.navbar-brand {
     padding-right: 15px;
 }
 
+/*
 .login_bt {
     width: 155px;
 }
+*/
 
 .login_bt select:hover{
     cursor: pointer;
@@ -294,6 +296,11 @@ a.navbar-brand {
 .login_bt ul {
     margin: 0px;
     padding: 0px;
+    display:inline;
+}
+
+.login_bt ul li {
+    display:inline;
 }
 
 .login_bt li a {
@@ -301,7 +308,7 @@ a.navbar-brand {
     font-size: 18px;
     color: #001431;
     text-transform: uppercase;
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 40px;
 }
 
 .login_bt li a:hover {
@@ -1395,5 +1402,21 @@ textarea#comment::placeholder {
 @media (max-width: 1280px) {
     .login_bt {
         margin:auto;
+    }
+    .login_bt ul {
+        margin: 0px;
+        padding: 0px;
+        display:block;
+    }
+    
+    .login_bt ul li {
+        display:block;
+    }
+    
+    .login_bt li a {
+        float: left;
+        font-size: 18px;
+        color: #FFF;
+        text-transform: uppercase;
     }
 }

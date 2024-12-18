@@ -50,16 +50,20 @@
                      </li>
                   </ul>
                   <div class="login_bt">
-                     <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <label class="input-group-text" for="lang-select"><i class="fa fa-language"></i></label>
-                        </div>
-                        <select class="custom-select" onchange="changeLanguage(this.value)" id="lang-select">
-                          <option value="en">English</option>
-                          <option value="vn">Tiếng Việt</option>
-                          <option value="cn">中文</option>
-                        </select>
-                      </div>
+                     <ul>
+                        <li>
+                           <a onclick="changeLanguage('en')" href="#">English</a>
+                        </li>
+                        <li>
+                           <a onclick="changeLanguage('vn')" href="#">Tiếng Việt</a>
+                        </li>
+                        <li>
+                           <a onclick="changeLanguage('cn')" href="#">中文</a>
+                        </li>
+                        <li>
+                           <a onclick="changeLanguage('es')" href="#">Español</a>
+                        </li>
+                     </ul>
                   </div>
                </div>
             </nav>
