@@ -43,3 +43,6 @@ window.addEventListener("DOMContentLoaded", async () => {
   //const translator = document.getElementById('lang-select');
   //translator.value = userPreferredLanguage;
 });
+
+let date = new Date().getFullYear();
+document.getElementById('year').textContent = date;
