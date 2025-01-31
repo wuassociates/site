@@ -1415,4 +1415,11 @@ textarea#comment::placeholder {
     .login_bt li a {
         color: #FFF;
     }
+
+    .banner_title {
+        font-size: 50px;
+    }
+    .banner_text {
+        font-size: 14px;
+    }
 }
